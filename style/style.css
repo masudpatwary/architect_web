@@ -11,6 +11,7 @@
 .main {
     background-color: #FF900E1A;
     padding: 50px 229px;
+    background-size: 100%;
 }
 
 .nav_container {
@@ -208,6 +209,7 @@ button a {
 
 .fact_heading {
     padding: 0 240px;
+    margin-bottom: 100pX;
 }
 
 .fact_box {
@@ -226,7 +228,6 @@ button a {
     margin-top: 24px;
     margin-bottom: 100px;
     line-height: 30px;
-    margin: 5px 0;
 }
 
 .fact_box h1 {
@@ -269,7 +270,7 @@ button a {
     text-align: center;
     font-size: 16px;
     margin-top: 24px;
-    margin-bottom: 26px;
+    margin-bottom: 30px;
     color: #727272;
     line-height: 25px;
 }
@@ -294,8 +295,177 @@ button a {
 }
 
 .fotter {
-    margin: 0 auto;
     padding: 0 240px;
     font-size: 20px;
     color: #424242;
+}
+
+.fotter p {
+    text-align: center;
+}
+
+/* this is responsive section  */
+
+@media screen and (max-width:576px) {
+
+
+    /* this is header  */
+
+    .main {
+        padding: 10px 20px;
+        background-size: 100%;
+    }
+
+
+    .nav_container ul {
+        display: none;
+    }
+
+    .nav_container h1 {
+        font-size: 50px;
+        white-space: nowrap;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .heading h1 {
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .heading p {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .heading p {
+        text-align: center;
+        white-space: wrap;
+        width: 100%;
+    }
+
+    .btn a {
+        white-space: nowrap;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    /* this is galary  */
+
+    .galary {
+        flex-direction: column;
+    }
+
+    .galary_section {
+        padding: 20px 20px;
+    }
+
+    .images {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 50px;
+    }
+
+    .images img {
+        width: 100%;
+    }
+
+    .btn_2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* this is experience section  */
+
+    .experience {
+        flex-direction: column;
+    }
+
+    .architect_experience_section {
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+
+    .architect_img img {
+        width: 100%;
+    }
+
+    .experience_btn {
+        position: relative;
+        top: -150px;
+        right: 55px;
+    }
+
+    .fact_heading {
+        padding: 20px 20px;
+    }
+
+    .fact_heading h1 {
+        text-align: center;
+    }
+
+    .fact_heading p {
+        text-align: center;
+        white-space: wrap;
+        font-size: 14px;
+    }
+
+    .fact_container {
+        flex-direction: column;
+        padding: 20px 50px;
+        row-gap: 20px;
+    }
+
+    /* this is sponser  */
+
+    .sponser_heading h1 {
+        font-size: 35px;
+    }
+
+    .sponser_heading p {
+        font-size: 14px;
+        white-space: wrap;
+        padding: 20px 20px;
+    }
+
+    .sponser_brand ul {
+        padding: 0 20px;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .sponser_brand ul li a {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* this is footer  */
+
+    .footer_container {
+        background-color: #FFF4E7;
+        margin: 0px 0px;
+        padding: 20px 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    .fotter {
+        padding: 0px 0px;
+        width: 100%;
+
+    }
+
+    .fotter p {
+        font-size: 20px;
+        white-space: wrap;
+
+    }
+}
+
+.hide {
+    display: none;
 }
