@@ -279,3 +279,23 @@ button a {
     display: flex;
     column-gap: 155px;
 }
+
+/* this is footer  */
+
+.footer_container {
+    background-color: #FFF4E7;
+    margin: 0 240px;
+    padding: 38px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 130px;
+    margin-bottom: 254px;
+
+}
+
+.fotter {
+    margin: 0 auto;
+    padding: 0 240px;
+    font-size: 20px;
+    color: #424242;
+}
