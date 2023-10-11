@@ -317,7 +317,7 @@ button a {
     }
 
 
-    .nav_container ul {
+    .nav_container {
         display: none;
     }
 
@@ -325,14 +325,13 @@ button a {
         font-size: 50px;
         white-space: nowrap;
         width: 100%;
-        margin-top: 50px;
     }
 
     .heading h1 {
         font-size: 40px;
         font-weight: 600;
         width: 100%;
-        margin-top: 50px;
+        margin-top: 20px;
     }
 
     .heading p {
