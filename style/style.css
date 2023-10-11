@@ -1,3 +1,171 @@
-h1 {
-    color: red;
+* {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* nav start here  */
+
+.main {
+    background-color: #FF900E1A;
+    padding: 50px 229px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.nav_container h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+}
+
+.nav_container ul li {
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.nav_container ul li a {
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* heading start here  */
+
+.heading h1 {
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 150px;
+
+}
+
+.heading p {
+    text-align: center;
+    color: #727272;
+    margin: 25px 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+button {
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+button a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* banner section  */
+
+.banner {
+    display: flex;
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* this is galary  */
+
+.galary_section {
+    padding: 0 250px;
+    margin-top: 85px;
+}
+
+.galary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+}
+
+#galary_header {
+    font-weight: 500;
+    color: #727272;
+}
+
+#common_color {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+
+.galary_info h2 {
+    font-size: 45px;
+
+}
+
+.galary_info p {
+    margin: 30px 0;
+}
+
+/* this is experience section  */
+
+.architect_experience_section {
+    padding: 0 230px;
+    margin-top: 130px;
+}
+
+.experience {
+    display: flex;
+    column-gap: 130px;
+}
+
+.experience h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.experience p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin: 20px 0;
+
+}
+
+.experience_heading {
+    padding: 30px;
+}
+
+.experience_container h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.box {
+    padding: 20px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.architect_img{
+    width: 100%;
 }
